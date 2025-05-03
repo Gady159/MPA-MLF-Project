@@ -29,7 +29,7 @@ legend('Train Loss','Validation Loss','FontSize',fontS-2, ...
     'interpreter','latex','Location','northeast')
 xlabel('Epoch [-]','FontSize',fontS,'Interpreter','latex')
 ylabel('Loss [\%]','FontSize',fontS,'Interpreter','latex')
-title('Loss pre epoch','FontSize',fontS,'Interpreter','latex')
+title('Loss per epoch','FontSize',fontS,'Interpreter','latex')
 ylim([0 100])
 if export == 1
     exportgraphics(gcf,'Loss.emf','ContentType','vector')
@@ -48,7 +48,7 @@ legend('Train Accuracy','Validation Accuracy','FontSize',fontS-2, ...
     'interpreter','latex','Location','southeast')
 xlabel('Epoch [-]','FontSize',fontS,'Interpreter','latex')
 ylabel('Accuracy [\%]','FontSize',fontS,'Interpreter','latex')
-title('Accuracy pre epoch','FontSize',fontS,'Interpreter','latex')
+title('Accuracy per epoch','FontSize',fontS,'Interpreter','latex')
 ylim([0 100])
 if export == 1
     exportgraphics(gcf,'Accuracy.emf','ContentType','vector')
