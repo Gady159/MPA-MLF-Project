@@ -1,7 +1,0 @@
-tensorflow==2.15.1
-tqdm
-matplotlib
-numpy
-pandas
-scikit-learn
-scipy
